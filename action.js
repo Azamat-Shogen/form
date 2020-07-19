@@ -4,10 +4,7 @@
     let form_container = document.getElementById('form-container');
     let form_instruction = document.getElementById('form_instruction_id');
     let bod = document.body;
-    let pics = ["url('images/pic1.jpg')", "url('images/pic3.jpg')", "url('images/pic4.jpg')","url('images/pic5.jpg')", "url('images/pic6.jpg')", "url('images/pic7.jpg')","url('images/pic8.jpg')",
-               "url('images/pic9.jpg')", "url('images/pic10.jpg')", "url('images/pic11.jpg')", "url('images/pic12.jpg')", "url('images/pic13.jpg')", "url('images/pic14.jpg')", "url('images/pic15.jpg')"];
-
-
+    
     (function(){
     form_container.style.display = 'Block';
     form_container.style.margin = '0px';
@@ -16,20 +13,6 @@
     form_instruction_id.style.display = 'Block';
      
 })();
-
-
-
-function slideShow(img, speed){
-   let index = 0;
-   let timer = setInterval(function(){
-       bod.style.backgroundImage = img[index];
-       if(++index === img.length){
-           index = 0;
-       }
-   },speed);
-}
- 
-  //slideShow(pics, 10000);
 
 
 // ******************************* FORM FUNCTIONS **************************************************
@@ -258,7 +241,7 @@ function selectUsdot(){
         else{selectedCarrier(index);}
 
     }
-     slideShow(pics, 20000);
+    bod.style.backgroundImage = "url('images/pic3.jpg')";
         
 }
 
