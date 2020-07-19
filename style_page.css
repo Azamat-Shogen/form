@@ -1,0 +1,858 @@
+
+
+text {
+    font-size: 12px;
+    white-space: nowrap;
+    background-color: snow;
+
+}
+
+
+.container{
+    display: none;
+   width: 88%;
+   min-height: 850px;
+   overflow: none;
+    background-color: aliceblue;
+    border: 2px ridge #E7E7E7;
+    border-radius: 20px;
+    margin: 10px 100px 10px 100px;
+    padding: 10px 5px 10px 15px;
+      
+}
+
+p{
+
+    font-size: 16px;
+}
+
+.disc{
+    color: #2f09db;
+    font-size: 18px;
+}
+
+#home-contailer{
+ display: none;
+}
+            
+
+
+body{
+   
+    background-color: #d3e1f1;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:top;
+/*    background-image: url(https://permits.mdot.ms.gov/Images/Mississippi/Load-Overview-Blurred.jpg); */
+/*    background-image: url(https://mountaintrip.com/wp-content/uploads/2019/09/elbrus1.jpg);*/
+/*    background-image: url("https://itd.idaho.gov/wp-content/uploads/2017/04/siteContent-bkgrnd-I-90-drone.jpg");*/
+   
+}
+.wrapper{
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    min-height: 850px;
+    grid-gap: 2px;
+    background-color: aliceblue;
+    border: 2px ridge #E7E7E7;
+    border-radius: 20px;
+    margin: 10px 100px 10px 100px;
+    padding: 10px 5px 10px 15px;
+}
+
+/*SECOND PAGE STYLING START*/
+
+
+.btn{
+   font-size: 20px;
+}
+
+.strong-head{
+    font-family: cursive;
+    font-size: 16px;
+    color: #82171d;
+}
+
+.side-bar{
+    
+    width: 500px;
+    height: 100%;
+    margin-right: 50px;
+
+}
+.conditions{
+    display: inline-grid;
+/*    width:900px;*/
+    width: 80%;
+    grid-template-rows: auto auto auto auto;
+}
+
+.operating-time{
+  
+    border: 1px solid #cee9f5; 
+    
+}
+
+.legal-dim{
+    border: 1px solid #cee9f5; 
+     border-top: 2px solid #10062e;
+}
+
+.weight-allowence{
+    border: 1px solid #cee9f5;
+     border-top: 2px solid #10062e;
+}
+
+
+h4{
+    text-align: center;
+    font-family:serif;
+    font-size: 22px;
+    font-weight: 700;
+    
+}
+
+
+.ld{
+    display: grid;
+    
+    font-size: 18px;
+    font-weight: 550;
+    color: #1d2642;
+}
+.axles{
+    font-size: 16px;
+    color: #0c2263;
+}
+
+
+}
+li{
+    display:flex;
+     list-style-type: circle;
+    border: 1px solid #dcdfe8;
+    border-left: none;
+}
+
+
+.axles{
+    margin-top: 10px;
+    margin-bottom: 5px;
+   
+}
+
+
+.n{
+   
+   font-family: system-ui;
+    color: black;
+    padding-top: 5px;
+    font-weight: 550;
+}
+
+
+
+a:hover {
+  text-shadow: 2px 2px 4px #000000;
+    
+}
+
+
+/********************FORM CONTAINER*******************/
+
+#form-container{
+    display: none;
+    min-height: 1220px;
+}
+
+#form-wrapper{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    grid-gap: 5px;
+    
+}
+.section{
+    border: 1px solid #95bec9;
+}
+#imc-form{
+    text-align: center;
+    font-family:sans-serif;
+    text-shadow: 1px 2px 2px #000000;
+    color: #066ad4;
+}
+   
+            
+#section-0{
+    height: 160px;
+    background-color: #f2f2f2;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+    background-color: #c1deca;
+}           
+
+#section-1{
+    display: none;
+    grid-template-columns: auto auto;
+    grid-gap: 2px;
+    height: 160px;
+    background-color: #f2f2f2;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+}
+            
+#cj_but_id{
+    margin-top: -6px;
+
+ }
+
+.cj_0{
+  margin-left: 34%;
+  margin-top: 6%;
+  
+}          
+
+#usdot-val{
+ width:170px;
+ font-size: 20px;
+ color: #101073;
+ text-align: center;
+ height: 42px;
+ border: 2px solid green;
+    border-radius: 5px;
+ 
+}
+            
+            
+.cj{
+  margin-left:8px;  
+}
+
+input[type=text], [type=email], select {
+  width: 80%;
+  padding: 2px 8px;
+  margin: 1px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 1.1em;   
+  
+}
+
+/*************** SECTION 1 PART 1 *********************/
+
+#address_info1{
+    border-right: 1px solid #99a8c4;
+}
+#carr{
+    cursor: pointer;
+    background-color: #b3e1f2;
+    margin-left: 15px;
+}
+#unit_id_label{
+    margin-left: 33px;
+}
+#address_id1{
+    margin-left: 5px;
+}
+#address_id2{
+    margin-left: 5px;
+}
+            
+     
+.carrier_class{
+  margin-left: 15px;
+}            
+
+.phone_class{
+    margin-left: 18px;
+}
+
+/*************** SECTION 1 PART 2 *********************/
+
+#driver_name{
+    margin-left: 20px;
+}
+#usdot{
+    margin-left: 10px;
+}
+#fein{
+    margin-left: 23px;
+}
+#ifta{
+    margin-left: 38px;
+}
+#email_input{
+    margin-left: 22px;
+}
+
+
+/*************** SECTION B PART 2 *********************/
+#section-2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 130px;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+.load{
+    margin-top: 45px;
+    padding-left: 10%;
+    height: 100%;
+    color: #dc263f;
+    font-size: 24px;
+    
+}
+#obj{
+ margin-top: 20px;
+    width: 600px;
+    margin-left: 40px; 
+}
+
+
+#dim{
+    margin-top: 5px;
+    width: 200px;
+    margin-left: 10%;
+    
+}
+
+#len{
+    width: 50%;
+    margin-left: 7px;
+    text-align: center;
+}
+#wid{
+    width: 50%;
+     margin-left: 14px;
+    text-align: center;
+}
+#hig{
+    width: 50%;
+     margin-left: 11px;
+    text-align: center;
+}
+#weig{
+    width: 50%;
+     margin-left: 8px;
+    text-align: center;
+}
+#make-model{
+    margin-left: 6px;
+}
+
+#object{
+    margin-left: 42px;
+}
+
+#serial{
+    margin-left: 40px;
+}
+
+/************************* Equipment *************************/
+
+#section-3{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    height: 100px;
+    color: black;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+.tr{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    width: 900px;
+}
+.g{
+    height: 29px;
+    border-radius: 4px;
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-size: 16px;
+}
+.unit-input{
+    width: 90px;
+}
+.axles-input{
+    width: 45px;
+}
+.year-input{
+    width: 65px;
+}
+.make-input{
+    width: 135px;
+}
+.plate-input{
+    width: 120px;
+    text-transform: uppercase;
+}
+.state-input{
+    width: 45px;
+}
+.vin-input{
+    width: 250px;
+    text-transform: uppercase;
+}
+.length-input{
+    width: 60px;
+}
+#tr_u{
+    margin-left: 5px;
+}
+#trl_u{
+    margin-left: 5px;
+}
+#unx{
+    margin-left: 5px;
+}
+#main-label{
+    margin-top: 5px;
+}
+#eq-l{
+   margin-left: 5px;
+   font-size: 18px;
+   box-shadow: inset 0 0px 0 white, inset 0 -2px 0 black
+}
+#un-l{
+    margin-left: 20px;
+   
+}
+#ax-l{
+    margin-left: 33px;
+   
+}
+#ye-l{
+    margin-left: 25px;
+   
+}
+#ma-l{
+    margin-left: 67px;
+   
+}
+#pl-l{
+    margin-left: 90px;
+   
+}
+#st-l{
+    margin-left: 45px;
+   
+}
+#vi-l{
+    margin-left: 120px;
+   
+}
+#le-l{
+    margin-left: 120px;
+   
+}
+
+/***************************** AXLES ********************************/
+
+#section-4{
+   border-radius: 5px;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    background-color: #f2f2f2;
+}
+#axles_div{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+     margin-top: 6px;
+}
+.ax{
+    font-size: 18px;
+    width:50px;
+    
+}
+#ax-weight{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-gap: 3px; 
+   
+}
+#ax-tires{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-gap: 3px;   
+}
+.weight-cls{
+    width: 116px;
+    font-size: 16px;
+    border-radius: 4px;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+.ax2{
+    margin-left: 6px;
+}
+.weight-cls1{
+    margin-left: 15px;     
+}
+#ax_id{
+   box-shadow: inset 0 0px 0 white, inset 0 -2px 0 black;
+}
+.ax3{
+    margin-left: 60px;
+}
+#axl1{
+    margin-left: 55px;
+    
+}
+#axl2{
+    margin-left: 50px;
+}
+
+#axl3{
+    margin-left: 60px;
+}
+#axl4{
+    margin-left: 50px;
+}
+#axl5{
+    margin-left: 50px;
+}
+#axl6{
+    margin-left: 62px;
+}
+#axl7{
+    margin-left: 50px;
+}
+#tire-1{
+    margin-left: 28px;
+}
+#ax-tires{
+    margin-top: 3px;
+}
+.spacing{
+    border-radius: 4px;
+    width:120px;
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-size: 16px;
+}
+#sp1{
+    margin-left: 60px;
+}
+#sp2{
+    margin-left: 0px;
+}
+
+::placeholder {
+  opacity: 0.9; 
+}
+
+/********************************* OVERALL DIMENSIONS ***************************************/
+#section-5{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    height: 100px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+#overall-head{
+   text-align: center; 
+   margin-top: 5px;
+   font-weight: 600;
+   color: #5e0e44;
+}
+.loaded_in{
+    width: 120px;
+    border-radius: 4px;
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-size: 16px;
+}
+#loaded_in1{
+    margin-left: 30px;
+   margin-bottom: 5px;
+}
+#ld1{
+    margin-left: 70px;
+}
+#ld2{
+    margin-left: 78px;
+}
+#ld3{
+    margin-left: 78px;
+}
+#ld4{
+    margin-left: 50px;
+}
+#ld5{
+    margin-left: 40px;
+}
+#ld6{
+    margin-left: 33px;
+}
+#kingpin{
+    margin-left: 50px;
+}
+
+#kingpin .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+#kingpin:hover .tooltiptext {
+  visibility: visible;
+}
+  #home-b1 .tooltiptext2 {
+  visibility: hidden;
+  width: 200px;
+ 
+  font-size: 12px;
+  background-color: #6b8696 ;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+ margin-left: 7px;
+ 
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+#home-b1:hover .tooltiptext2{
+    visibility: visible;
+}
+
+
+
+/********************** ADDRESS FIELD -- SECTION 6 *************************/
+
+#section-6{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+#origin{
+    margin-left: 10px;
+}
+#add_input_id1{
+    width: 310px;
+     border-top: 2px solid black;
+     font-size: 16px;
+}
+#add_input_id2{
+    width: 310px;
+    font-size: 16px;
+}
+#add_input_id3{
+    width: 310px;
+     border-bottom: 2px solid black;
+    font-size: 16px;
+}
+#add_input_id7{
+    width: 310px;
+     border-top: 2px solid black;
+    font-size: 16px;
+}
+#add_input_id8{
+    width: 310px;
+    font-size: 16px;
+}
+#add_input_id9{
+    width: 310px;
+     border-bottom: 2px solid black;
+    font-size: 16px;
+}
+#add_input_id4{
+    width: 260px;
+     border-top: 2px solid black;
+    font-size: 16px;
+}
+
+#add_input_id5{
+    width: 260px;
+    font-size: 16px;
+}
+
+#add_input_id6{
+    width: 260px;
+    border-bottom: 2px solid black;
+}
+.add-l{
+    font-size: 16px;
+    margin-top: 5px;
+}
+#origin-address{
+    margin-left: 95px;
+}
+
+#point-address{
+    margin-left: 95px;
+}
+#destination-address{
+    margin-left: 70px;
+}
+
+
+/************************** SECTION 7 - ROUTE *********************************/
+
+#section-7{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border-radius: 5px;
+     background-color: #f2f2f2;
+}
+.state-input{
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+#state_id{
+    width: 80px;
+    margin-left: 10px;
+}
+
+.route-l{
+    font-size: 16px;
+    box-shadow: inset 0 0px 0 white, inset 0 -2px 0 black
+}
+#state_l{
+    margin-left: 13px;
+}
+#date_id{
+    width: 130px;
+    margin-left: -8px;
+}
+#date_l{
+    margin-left: 30px;
+}
+.date-input{
+    text-align: center;
+}
+#routing_id{
+    width: 400px;
+   
+}
+#route_l{
+    margin-left: 150px;
+}
+#note_id{
+    width: 310px;
+}
+#note_l{
+    margin-left: 120px;
+}
+#route1{
+    width: 99%;
+    margin-left: -15px;
+}
+#route2{
+    width: 99%;
+    margin-left: -15px;
+}
+#route3{
+    width: 99%;
+    margin-left: -15px;
+}
+#route4{
+    width: 99%;
+    margin-left: -15px;
+}
+#route5{
+     width: 99%;
+    margin-left: -15px;
+}
+#route6{
+    width: 99%;
+    margin-left: -15px;
+}
+#route7{
+     width: 99%;
+    margin-left: -15px;
+}
+#route8{
+    width: 99%;
+    margin-left: -15px;
+}
+#route9{
+    width: 99%;
+    margin-left: -15px;
+}
+#route10{
+    width: 99%;
+    margin-left: -15px;
+}
+#note1{
+    width: 100%;
+    margin-left: -10px;
+}
+#note2{
+    width: 100%;
+    margin-left: -10px;
+}
+#note3{
+    width: 100%;
+    margin-left: -10px;
+}
+#note4{
+    width: 100%;
+    margin-left: -10px;
+}
+#note5{
+    width: 100%;
+    margin-left: -10px;
+}
+#note6{
+    width: 100%;
+    margin-left: -10px;
+}
+#note7{
+    width: 100%;
+    margin-left: -10px;
+}
+#note8{
+    width: 100%;
+    margin-left: -10px;
+}
+#note9{
+    width: 100%;
+    margin-left: -10px;
+}
+#note10{
+    width: 100%;
+    margin-left: -10px;
+}
+  
+/*
+
+************************ PRINT PAGE ***********************
+*/
+
+.form_instruction{
+    display: grid;
+    grid-template-columns: auto auto;
+    color: white;
+    text-shadow: 1px 1px 1px black, 0 0 1em blue, 0 0 0.1em blue;
+    font: 1.2em Georgia, serif;
+    
+}
+#home-b1{
+   width: 100%;
+}
+#home-b2{
+   width: 460px;
+}
+
+
+ </style>
