@@ -1,12 +1,10 @@
 
-
 text {
     font-size: 12px;
     white-space: nowrap;
     background-color: snow;
 
 }
-
 
 .container{
     display: none;
@@ -17,12 +15,10 @@ text {
     border: 2px ridge #E7E7E7;
     border-radius: 20px;
     margin: 10px 100px 10px 100px;
-    padding: 10px 5px 10px 15px;
-      
+    padding: 10px 5px 10px 15px;     
 }
 
 p{
-
     font-size: 16px;
 }
 
@@ -35,8 +31,6 @@ p{
  display: none;
 }
             
-
-
 body{
    
     background-color: #d3e1f1;
@@ -113,10 +107,8 @@ h4{
     
 }
 
-
 .ld{
     display: grid;
-    
     font-size: 18px;
     font-weight: 550;
     color: #1d2642;
@@ -126,8 +118,6 @@ h4{
     color: #0c2263;
 }
 
-
-}
 li{
     display:flex;
      list-style-type: circle;
@@ -135,13 +125,10 @@ li{
     border-left: none;
 }
 
-
 .axles{
     margin-top: 10px;
-    margin-bottom: 5px;
-   
+    margin-bottom: 5px;  
 }
-
 
 .n{
    
@@ -152,12 +139,10 @@ li{
 }
 
 
-
 a:hover {
   text-shadow: 2px 2px 4px #000000;
     
 }
-
 
 /********************FORM CONTAINER*******************/
 
@@ -169,8 +154,7 @@ a:hover {
 #form-wrapper{
     display: grid;
     grid-template-rows: auto auto auto auto auto auto auto auto;
-    grid-gap: 5px;
-    
+    grid-gap: 5px;    
 }
 .section{
     border: 1px solid #95bec9;
@@ -181,8 +165,7 @@ a:hover {
     text-shadow: 1px 2px 2px #000000;
     color: #066ad4;
 }
-   
-            
+               
 #section-0{
     height: 160px;
     background-color: #f2f2f2;
@@ -203,7 +186,6 @@ a:hover {
             
 #cj_but_id{
     margin-top: -6px;
-
  }
 
 .cj_0{
@@ -220,10 +202,8 @@ a:hover {
  height: 42px;
  border: 2px solid green;
     border-radius: 5px;
- 
 }
-            
-            
+                       
 .cj{
   margin-left:8px;  
 }
@@ -237,8 +217,7 @@ input[type=text], [type=email], select {
   border-radius: 4px;
   box-sizing: border-box;
   font-family: sans-serif;
-  font-size: 1.1em;   
-  
+  font-size: 1.1em;     
 }
 
 /*************** SECTION 1 PART 1 *********************/
@@ -260,8 +239,7 @@ input[type=text], [type=email], select {
 #address_id2{
     margin-left: 5px;
 }
-            
-     
+                
 .carrier_class{
   margin-left: 15px;
 }            
@@ -288,7 +266,6 @@ input[type=text], [type=email], select {
     margin-left: 22px;
 }
 
-
 /*************** SECTION B PART 2 *********************/
 #section-2{
     display: grid;
@@ -304,8 +281,7 @@ input[type=text], [type=email], select {
     padding-left: 10%;
     height: 100%;
     color: #dc263f;
-    font-size: 24px;
-    
+    font-size: 24px;  
 }
 #obj{
  margin-top: 20px;
@@ -317,8 +293,7 @@ input[type=text], [type=email], select {
 #dim{
     margin-top: 5px;
     width: 200px;
-    margin-left: 10%;
-    
+    margin-left: 10%;   
 }
 
 #len{
@@ -419,8 +394,7 @@ input[type=text], [type=email], select {
    box-shadow: inset 0 0px 0 white, inset 0 -2px 0 black
 }
 #un-l{
-    margin-left: 20px;
-   
+    margin-left: 20px;  
 }
 #ax-l{
     margin-left: 33px;
@@ -439,16 +413,13 @@ input[type=text], [type=email], select {
    
 }
 #st-l{
-    margin-left: 45px;
-   
+    margin-left: 45px; 
 }
 #vi-l{
     margin-left: 120px;
-   
 }
 #le-l{
     margin-left: 120px;
-   
 }
 
 /***************************** AXLES ********************************/
@@ -500,8 +471,7 @@ input[type=text], [type=email], select {
     margin-left: 60px;
 }
 #axl1{
-    margin-left: 55px;
-    
+    margin-left: 55px;  
 }
 #axl2{
     margin-left: 50px;
@@ -631,8 +601,6 @@ input[type=text], [type=email], select {
     visibility: visible;
 }
 
-
-
 /********************** ADDRESS FIELD -- SECTION 6 *************************/
 
 #section-6{
@@ -701,7 +669,6 @@ input[type=text], [type=email], select {
 #destination-address{
     margin-left: 70px;
 }
-
 
 /************************** SECTION 7 - ROUTE *********************************/
 
@@ -853,6 +820,3 @@ input[type=text], [type=email], select {
 #home-b2{
    width: 460px;
 }
-
-
- </style>
