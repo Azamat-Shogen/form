@@ -39,9 +39,9 @@
 }   
     
 // ***************************** *******************************   
-var carrierArray = [];
+let carrierArray = [];
 
-var empty_carrier = new Carrier("",
+let empty_carrier = new Carrier("",
                                "",
                                "",
                                "",
@@ -50,7 +50,7 @@ var empty_carrier = new Carrier("",
                                "",
                                "");
  
-var gap_global = new Carrier("Gap Global Inc",
+let gap_global = new Carrier("Gap Global Inc",
                              "800 WERNER COURT, STE  275",
                              "Casper, WY, 82602",
                              "224-347-4944",
@@ -60,7 +60,7 @@ var gap_global = new Carrier("Gap Global Inc",
                              "permits@gogapglobal.com");
 
 
-var jet_motors = new Carrier("Jet Motors Inc",
+let jet_motors = new Carrier("Jet Motors Inc",
                              "1185 BUCKINGHAM CT. 1D",
                              "Wheeling, IL, 60090",
                              "847-902-5393",
@@ -70,7 +70,7 @@ var jet_motors = new Carrier("Jet Motors Inc",
                              "jetmotors2015@gmail.com");
 
 
-var turun_llc = new Carrier("Turun LLC",
+let turun_llc = new Carrier("Turun LLC",
                              "16816 SE POWELL BLVD, APT 104",
                              "Portland, OR, 97236",
                              "802-777-7888",
@@ -80,7 +80,7 @@ var turun_llc = new Carrier("Turun LLC",
                              "turunllc@gmail.com");
 
 
-var gt_express = new Carrier("GT Express INC",
+let gt_express = new Carrier("GT Express INC",
                              "8500W 191st Street Unit1",
                              "Mokena, IL, 60448",
                              "779-333-7283",
@@ -89,7 +89,7 @@ var gt_express = new Carrier("GT Express INC",
                              "45-5384850",
                              "greg@gtexpress.com");
 
-var ktm_united = new Carrier("KTM UNITED INC",
+let ktm_united = new Carrier("KTM UNITED INC",
                              "9001 GOLF RD 9B",
                              "Des Plaines, IL, 60016",
                              "773-677-4777",
@@ -98,7 +98,7 @@ var ktm_united = new Carrier("KTM UNITED INC",
                              "IL46063558901",
                              "ktmunited@hotmail.com");
 
-var extreme_carriers = new Carrier("Extreme Carriers Inc",
+let extreme_carriers = new Carrier("Extreme Carriers Inc",
                              "4652 N ORANGE AVE ",
                              "Norridge, IL, 60706",
                              "888-566-1170",
@@ -107,7 +107,7 @@ var extreme_carriers = new Carrier("Extreme Carriers Inc",
                              "IL47400334401",
                              "EXTREMECARRIERSINC@GMAIL.COM");
 
-var imc_trans = new Carrier("Imc Trans Inc ",
+let imc_trans = new Carrier("Imc Trans Inc ",
                              "3205 N Wilke RD, suite 3205-118",
                              "Arlington Heights, IL, 60004",
                              "***-***-****",
@@ -116,7 +116,7 @@ var imc_trans = new Carrier("Imc Trans Inc ",
                              "IL47213058801",
                              "Dispatch@imctrans.com");
 
-var am_carriers = new Carrier("A&M Carriers Inc",
+let am_carriers = new Carrier("A&M Carriers Inc",
                              "1325 VALLEY ST",
                              "Dayton, OH, 45404",
                              "224-434-1684",
@@ -125,7 +125,7 @@ var am_carriers = new Carrier("A&M Carriers Inc",
                              "IL81101168301",
                              "amdispatch247@gmail.com");
 
-var global_transport = new Carrier("global transportation llc",
+let global_transport = new Carrier("global transportation llc",
                              "4500 S Monaco st",
                              "Denver, CO, 80237",
                              "720-325-6760",
@@ -134,7 +134,7 @@ var global_transport = new Carrier("global transportation llc",
                              "CO-46-3673743",
                              "opendeck@kavkazexpress.net");
 
-var total_quality = new Carrier("TOTAL QUALITY TRUCKING INC",
+let total_quality = new Carrier("TOTAL QUALITY TRUCKING INC",
                              "490 Riverview Dr Suite #5",
                              "Totowa, NJ, 07512",
                              "866-702-0022",
@@ -144,7 +144,7 @@ var total_quality = new Carrier("TOTAL QUALITY TRUCKING INC",
                              "tqtdispatch@gmail.com");
 
 
-var yellowstone = new Carrier("Yellowstone Logistics LLC",
+let yellowstone = new Carrier("Yellowstone Logistics LLC",
                              "212 Overmount ave, apt H",
                              "Woodland Park, NJ, 07424",
                              "973-510-3598",
@@ -153,7 +153,7 @@ var yellowstone = new Carrier("Yellowstone Logistics LLC",
                              "**********",
                              "yellow36722@gmail.com");
 
-var eagle_logistics = new Carrier("EAGLE LOGISTICS, LLC",
+let eagle_logistics = new Carrier("EAGLE LOGISTICS, LLC",
                              "657 UNION BLD",
                              "Totowa, NJ, 07512",
                              "973-500-6191",
@@ -162,7 +162,7 @@ var eagle_logistics = new Carrier("EAGLE LOGISTICS, LLC",
                              "**********",
                              "jakub@goeaglelogistics.com");
 
-var gt_xpress = new Carrier("GT Xpress Inc",
+let gt_xpress = new Carrier("GT Xpress Inc",
                              "7722 Greenley Blvd",
                              "Tinley Park, IL, 60487",
                              "877-377-2720",
@@ -172,7 +172,7 @@ var gt_xpress = new Carrier("GT Xpress Inc",
                              "greg@gtexpress.com");
 
 
-var love_usa = new Carrier("Love USA Transportation Inc",
+let love_usa = new Carrier("Love USA Transportation Inc",
                              "1120 Fox Dr, Apt 408",
                              "Monroeville, PA",
                              "412-499-3010",
@@ -181,7 +181,7 @@ var love_usa = new Carrier("Love USA Transportation Inc",
                              "*********",
                              "loveusa.9898@gmail.com");
     
-var right_path = new Carrier("Right Path Trucking Inc",
+let right_path = new Carrier("Right Path Trucking Inc",
                              "2743 W Arthur ave #3",
                              "Chicago, IL, 60645",
                              "312-498-4303",
@@ -189,6 +189,15 @@ var right_path = new Carrier("Right Path Trucking Inc",
                              "82-5331873",
                              "IL82533187301",
                              "rightpathtruckinginc@gmail.com");
+
+let american_power = new Carrier("American Power Trucking LLC",
+                             "24910 103rd Ave SE, #C105",
+                             "Kent, WA 98030",
+                             "(253) 334 - 8529",
+                             "2442013",
+                             "85-1586011",
+                             "************",
+                             "billing@americanpowertrucking.com");
 
 
 //carrierArray.push(empty_carrier);
@@ -207,7 +216,7 @@ carrierArray.push(eagle_logistics);
 carrierArray.push(gt_xpress);
 carrierArray.push(love_usa);
 carrierArray.push(right_path);
-
+carrierArray.push(american_power);
   
     
 function selectedCarrier(indx){
@@ -245,18 +254,3 @@ function selectUsdot(){
         
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
