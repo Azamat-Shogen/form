@@ -199,6 +199,15 @@ let american_power = new Carrier("American Power Trucking LLC",
                              "************",
                              "billing@americanpowertrucking.com");
 
+let universalWaysCorp = new Carrier("Universal Ways Corp",
+                             "3444 N Ozark ave.",
+                             "Chicago, IL, 60634",
+                             "872-999-3777",
+                             "3089385",
+                             "81-5066377",
+                             "IL81506637701",
+                             "universalwayssafety@gmail.com");
+
 
 //carrierArray.push(empty_carrier);
 carrierArray.push(gap_global);
@@ -217,6 +226,8 @@ carrierArray.push(gt_xpress);
 carrierArray.push(love_usa);
 carrierArray.push(right_path);
 carrierArray.push(american_power);
+carrierArray.push(universalWaysCorp);
+
   
     
 function selectedCarrier(indx){
