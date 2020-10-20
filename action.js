@@ -208,6 +208,15 @@ let universalWaysCorp = new Carrier("Universal Ways Corp",
                              "IL81506637701",
                              "universalwayssafety@gmail.com");
 
+let botashEnterpriceCorp = new Carrier("Botash Enterprise Corp",
+                             "552 Greystone Lane, Apt D1",
+                             "Wheeling, IL 60090",
+                             "847-278-0380",
+                             "2062477",
+                             "27-3174536",
+                             "***********",
+                             "botashenterprises@gmail.com");
+
 
 //carrierArray.push(empty_carrier);
 carrierArray.push(gap_global);
@@ -227,6 +236,7 @@ carrierArray.push(love_usa);
 carrierArray.push(right_path);
 carrierArray.push(american_power);
 carrierArray.push(universalWaysCorp);
+carrierArray.push(botashEnterpriceCorp);
 
   
     
