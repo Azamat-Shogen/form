@@ -217,6 +217,15 @@ let botashEnterpriceCorp = new Carrier("Botash Enterprise Corp",
                              "***********",
                              "botashenterprises@gmail.com");
 
+let vozel_transport = new Carrier("Vozel Transport Inc",
+                             "361 Evening Star Ct",
+                             "Bolingbrook, IL 60440",
+                             "847-595-0847",
+                             "3177198",
+                             "465562606",
+                             "18507-33920",
+                             "office@vozeltransport.com");
+
 
 //carrierArray.push(empty_carrier);
 carrierArray.push(gap_global);
@@ -237,6 +246,7 @@ carrierArray.push(right_path);
 carrierArray.push(american_power);
 carrierArray.push(universalWaysCorp);
 carrierArray.push(botashEnterpriceCorp);
+carrierArray.push(vozel_transport);
 
   
     
