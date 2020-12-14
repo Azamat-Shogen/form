@@ -226,6 +226,15 @@ let vozel_transport = new Carrier("Vozel Transport Inc",
                              "18507-33920",
                              "office@vozeltransport.com");
 
+let cdi_express_inc = new Carrier("CDI Express Inc",
+                             "38W499 Silver Glen Rd",
+                             "St Charles, IL 60175",
+                             "224-888-4474",
+                             "3177602",
+                             "47-1440684",
+                             "IL47144068401",
+                             "cdi.express.inc@gmail.com");
+
 
 //carrierArray.push(empty_carrier);
 carrierArray.push(gap_global);
@@ -247,6 +256,7 @@ carrierArray.push(american_power);
 carrierArray.push(universalWaysCorp);
 carrierArray.push(botashEnterpriceCorp);
 carrierArray.push(vozel_transport);
+carrierArray.push(cdi_express_inc);
 
   
     
